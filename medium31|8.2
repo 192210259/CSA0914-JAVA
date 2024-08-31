@@ -1,0 +1,21 @@
+public class maxandmin{
+    public static void main(String[] args)
+    {
+        int number[]={12,56,24,32};
+        int max=number[0];
+        int min=number[0];
+        for(int i=1;i<number.length;i++)
+        {
+            if(max>number[i])
+            {
+                max=number[i];
+            }
+            if(min<number[i])
+            {
+                min=number[i];
+            }
+        }
+        System.out.println("min element:"+min);
+        System.out.println("max element:"+max);
+    }
+}
